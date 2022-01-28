@@ -4,4 +4,5 @@ public interface Employee {
 
     void issuePayCheck();
     void printDetails();
+
 }

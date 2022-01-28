@@ -4,7 +4,7 @@ public class ProfessorDepartment extends Professor implements TeachatDepartment 
 
 
     public void worksInDepartment() {
-        String dept = "CSE";
+        String dept = "Cse";
         System.out.println(dept);
     }
 

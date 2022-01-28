@@ -19,18 +19,20 @@ public class Professor implements Employee{
 
     public void issuePayCheck(){   // resolving both open closed principle and dependency inversion principle
                                         //by allowing issuePayCheck can be extended without modifying the exting method
-        Salary s=new PayCheck();
-        s.issuePayCheck();
+        Salary salary=new PayCheck();
+        salary.issuePayCheck();
+
+
     }
 
 
     public static void main(String[] args){
 
-        Professor p=new Professor(100,"lavya");
-        p.printDetails();
-        p.issuePayCheck();
-        ProfessorDepartment p1=new ProfessorDepartment();
-        p1.worksInDepartment();
+        Professor professor = new Professor(100,"lavya");
+        professor.printDetails();
+        professor.issuePayCheck();
+        ProfessorDepartment professor1 = new ProfessorDepartment();
+        professor1.worksInDepartment();
 
 
     }

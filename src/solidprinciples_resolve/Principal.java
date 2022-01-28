@@ -8,15 +8,15 @@ public class Principal extends Professor {
     public void printDetails()
     {
         String name="Tony";
-        String Collegename="MVSR";
-        System.out.println(name+ " " +Collegename);
+        String collegename="MVSR";
+        System.out.println(name+ " " +collegename);
     }
 }
 class Principalmain{
     public static void main(String[] args){
 
-        Principal p1=new Principal();
-        p1.issueSalary();
-        p1.printDetails();
+        Principal principal1=new Principal();
+        principal1.issueSalary();
+        principal1.printDetails();
     }
 }
